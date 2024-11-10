@@ -46,22 +46,22 @@ CREATE TABLE IF NOT EXISTS OrderDetails (
 
 -- Insertar datos
 INSERT INTO usuarios (isAdmin, firstName, lastname, email, address, password, telephone)
+
 VALUES (1, 'Oscar', 'Marmeli', 'oscarmarmeli@gmail.com', 'El Mensú 56 - Villa Libertad', '12345', '3754659457');
+INSERT INTO productos (nombre, descripcion, precio, categoria, url)
+VALUES ('Pelota de Fútbol Profesional', 'Pelota de fútbol de alta calidad, ideal para competiciones profesionales.', 12500, 'PELOTAS DEPORTIVAS', 'https://i.ibb.co/DzjmLW2/t501475a1-169543049ca9029c8c15665734265008-240-0.jpg');
 
 INSERT INTO productos (nombre, descripcion, precio, categoria, url)
-VALUES ('PARRILLA PARANÁ', 'Una parrilla tradicional...', 65400, 'PARRILLAS MEDIANAS', 'https://productosnuke.com.ar/wp-content/uploads/2021/04/Parillaparana-nueva.png');
+VALUES ('Pelota de Básquet Oficial', 'Pelota de básquet con un gran rebote y durabilidad, perfecta para juego en interiores y exteriores.', 10000, 'PELOTAS DEPORTIVAS', 'https://i.ibb.co/DzjmLW2/t501475a1-169543049ca9029c8c15665734265008-240-0.jpg');
 
 INSERT INTO productos (nombre, descripcion, precio, categoria, url)
-VALUES ('PARRILLA DELTA', 'Una parrilla tradicional...', 52800, 'PARRILLAS MEDIANAS', 'https://productosnuke.com.ar/wp-content/uploads/2022/09/deltaMesa-de-trabajo-1.png');
+VALUES ('Pelota de Tenis Premium', 'Pelotas de tenis con excelente rendimiento para jugadores de todos los niveles.', 3500, 'PELOTAS DEPORTIVAS', 'https://i.ibb.co/DzjmLW2/t501475a1-169543049ca9029c8c15665734265008-240-0.jpg');
 
 INSERT INTO productos (nombre, descripcion, precio, categoria, url)
-VALUES ('PARRILLA PUMA', 'Una parrilla tradicional...', 69999, 'PARRILLAS MEDIANAS', 'https://productosnuke.com.ar/wp-content/uploads/2022/09/Mesa-de-trabajo-1.png');
+VALUES ('Pelota de Voleibol de Playa', 'Pelota de voleibol diseñada para resistir condiciones de playa y ofrecer un excelente control.', 8000, 'PELOTAS DEPORTIVAS', 'https://i.ibb.co/DzjmLW2/t501475a1-169543049ca9029c8c15665734265008-240-0.jpg');
 
 INSERT INTO productos (nombre, descripcion, precio, categoria, url)
-VALUES ('HORNO 60 CON CARRO', 'Horno a leña...', 72900, 'HORNOS MEDIANOS', 'https://productosnuke.com.ar/wp-content/uploads/2022/03/Horno-60-con-Carro.png');
+VALUES ('Pelota de Golf', 'Pelotas de golf de alta precisión, ideales para competencias y prácticas.', 500, 'PELOTAS DEPORTIVAS', 'https://i.ibb.co/DzjmLW2/t501475a1-169543049ca9029c8c15665734265008-240-0.jpg');
 
 INSERT INTO productos (nombre, descripcion, precio, categoria, url)
-VALUES ('HORNO 90 CON CARRO', 'Horno a leña...', 77700, 'HORNOS MEDIANOS', 'https://productosnuke.com.ar/wp-content/uploads/2022/03/Horno-60-con-Carro-1.png');
-
-INSERT INTO productos (nombre, descripcion, precio, categoria, url)
-VALUES ('HORNO 90 DE EMBUTIR', 'Horno a leña...', 61900, 'HORNOS MEDIANOS', 'https://productosnuke.com.ar/wp-content/uploads/2019/06/horno-embutir-90.jpg');
+VALUES ('Pelota de Handball', 'Pelota de handball de tamaño oficial, excelente agarre y durabilidad.', 6000, 'PELOTAS DEPORTIVAS', 'https://i.ibb.co/DzjmLW2/t501475a1-169543049ca9029c8c15665734265008-240-0.jpg');
