@@ -28,7 +28,7 @@ const Login = () => {
       const data = await response.json();
 
       if (response.ok) {
-        // Aquí puedes manejar la respuesta exitosa, como almacenar el token JWT, etc.
+        // Para manejar la respuesta exitosa
         alert('Login exitoso!');
       } else {
         setError(data.message || 'Error al iniciar sesión');
